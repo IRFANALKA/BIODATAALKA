@@ -39,7 +39,7 @@ html{
     justify-content: center;
     align-items: center;
     height : 80vh;
-    background-image: url("tesla.jpg");
+    background-image: url("Background.jpg");
 }
 .image-content {
     width: 40%;
