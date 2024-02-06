@@ -1,0 +1,130 @@
+*,
+html{
+    margin  :0;
+    padding :0; 
+}
+.container {}
+
+.container-navbar {
+    background-color: #333;
+    width  : 100%;
+    height : 10vh;
+}    
+.ul-navbar {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    font-size: 30px;
+}
+.li-navbar:hover{
+    background-color: tomato;
+    transition: .2s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
+}
+.a-navbar{
+    color: black;
+    text-decoration: none;
+}
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 80vh;
+    background-image: url("tesla.jpg");
+}
+.image-content {
+    width: 40%;
+    height: 40%;
+}
+.a-content{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+.a-content:hover{
+    background-color: pink;
+    transition: .2s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
+}
+.a-content > p {
+    margin-top: 10px;
+}
+.b-content{
+    font-style: times new roman;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 525px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 15px;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+.b-content:hover{
+    transition: .2s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
+}
+.c-content{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+.c-content:hover{
+    background-color: green;
+    transition: .2s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
+}
+    .c-content > p {
+        margin-top: 10px;
+    }
+.container-footer{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-footer {
+    font-size: 40;
+}
